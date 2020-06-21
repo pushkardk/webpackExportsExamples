@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+  mode: 'production',
   entry: {
     treeShaking: './src/tree-shaking.js',
     dynamicImports: './src/dynamic-imports.js',
@@ -9,7 +10,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
     chunkFilename: '[name].lazy.js'
   }
 }
