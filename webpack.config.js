@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
+  target: 'node',
   entry: {
     treeShaking: './src/tree-shaking.js',
     dynamicImports: './src/dynamic-imports.js',

@@ -1,4 +1,4 @@
-# webpackExports Examples
+# `webpackExports` Examples
 
 Repository containing examples that use `webpackExports`
 
@@ -6,4 +6,8 @@ Repository containing examples that use `webpackExports`
 
 ## Usage 
 
-Run `npm i` followed by `npx webpack`
+Run `npm i` (installs `webpack@5.0.0-beta.18`) followed by `npx webpack`
+
+## Executing a bundle
+
+Run `node dist/<bundle>` (Ex: `node dist/dynamicImports.js`) from the root of the project
