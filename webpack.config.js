@@ -8,7 +8,8 @@ module.exports = {
     treeShaking: './src/tree-shaking.js',
     dynamicImports: './src/dynamic-imports.js',
     webpackExports: './src/webpack-exports.js',
-    limitations: './src/limitations.js'
+    limitations: './src/limitations.js',
+    deepScopeAnalysis: './src/deep-scope-analysis.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

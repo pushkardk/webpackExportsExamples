@@ -1,0 +1,1 @@
+export { function1, function2 } from './external2'
