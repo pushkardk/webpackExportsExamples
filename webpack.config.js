@@ -9,7 +9,8 @@ module.exports = {
     dynamicImports: './src/dynamic-imports.js',
     webpackExports: './src/webpack-exports.js',
     limitations: './src/limitations.js',
-    deepScopeAnalysis: './src/deep-scope-analysis.js'
+    deepScopeAnalysis: './src/deep-scope-analysis.js',
+    interdependentExports: './src/interdependent-exports.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
